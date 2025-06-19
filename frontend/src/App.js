@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 import React from 'react';
 function App() {
   return (
-    <React.Fragment>
+    <div>
       <Header />
       <main className="py-3">
         <Container>
@@ -13,7 +13,7 @@ function App() {
         </Container>
       </main>
       <Footer />
-    </React.Fragment>
+    </div>
   );
 }
 
